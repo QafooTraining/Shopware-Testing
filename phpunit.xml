@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit bootstrap="/var/www/vhosts/shopware/shopware-master/tests/Shopware/TestHelper.php">
+
+    <testsuites>
+        <testsuite name="TestSuite">
+            <directory>test/shopware</directory>
+        </testsuite>
+    </testsuites>
+
+	<filter>
+		<whitelist>
+			<directory suffix=".php">src/main/</directory>
+		</whitelist>
+	</filter>
+</phpunit>
