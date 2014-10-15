@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit bootstrap="test/mink/bootstrap.php">
+
+    <testsuites>
+        <testsuite name="TestSuite">
+            <directory>test/mink</directory>
+        </testsuite>
+    </testsuites>
+
+	<filter>
+		<whitelist>
+			<directory suffix=".php">src/main/</directory>
+		</whitelist>
+	</filter>
+</phpunit>
