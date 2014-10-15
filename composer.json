@@ -15,5 +15,8 @@
         "psr-0": {
             "Qafoo": ["src/main", "test"]
         }
+    },
+    "github-oauth": {
+        "github.com": "60ae6aec624a889a6c5d4c6348f03559c15ffc99"
     }
 }
