@@ -1,0 +1,13 @@
+default:
+    paths:
+        features: test/features/basic
+        bootstrap: %behat.paths.features%/bootstrap
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: 'http://shopware-master.local/'
+            #base_url: 'http://de.wikipedia.org/'
+            default_session: 'goutte'
+            javascript_session: 'sahi'
+            sahi: ~
+            goutte: ~
+            browser_name: firefox
