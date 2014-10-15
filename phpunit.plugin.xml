@@ -3,11 +3,7 @@
 
     <testsuites>
         <testsuite name="TestSuite">
-<<<<<<< HEAD
-            <directory>test/shopware</directory>
-=======
             <directory>test/plugin</directory>
->>>>>>> 02-plugin
         </testsuite>
     </testsuites>
 
