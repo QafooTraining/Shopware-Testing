@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<phpunit bootstrap="/var/www/vhosts/shopware/shopware-master/tests/Shopware/TestHelper.php">
+<phpunit bootstrap="test/mink/bootstrap.php">
 
     <testsuites>
         <testsuite name="TestSuite">
-<<<<<<< HEAD
-            <directory>test/shopware</directory>
-=======
-            <directory>test/plugin</directory>
->>>>>>> 02-plugin
+            <directory>test/mink</directory>
         </testsuite>
     </testsuites>
 
