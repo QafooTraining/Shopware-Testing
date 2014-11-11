@@ -5,3 +5,5 @@ spl_autoload_register(function($class) {
         include strtr($class, '\\', '/') . '.php';
 	}
 });
+
+require_once __DIR__ . '/../../vendor/autoload.php';
